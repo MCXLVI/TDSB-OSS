@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>My Day</Text>
+      <Text style={styles.text}>Calendar</Text>
     </View>
   );
 }

@@ -7,9 +7,17 @@ export default function TabLayout() {
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon sf="house.fill" md="home" />
       </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="my-day">
-        <NativeTabs.Trigger.Label>My Day</NativeTabs.Trigger.Label>
-        <NativeTabs.Trigger.Icon sf="clock" md="schedule" />
+      <NativeTabs.Trigger name="news">
+        <NativeTabs.Trigger.Label>News</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="megaphone.fill" md="campaign" />
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="timetable">
+        <NativeTabs.Trigger.Label>Timetable</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="tray.fill" md="upcoming" />
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="calendar">
+        <NativeTabs.Trigger.Label>Calendar</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="calendar" md="calendar_month" />
       </NativeTabs.Trigger>
     </NativeTabs>
   );
