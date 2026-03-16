@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "TDSB-OSS",
-    "slug": "TDSB-OSS",
+    "name": "TDSB",
+    "slug": "TDSB",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "tdsboss",
+    "scheme": "tdsb",
     "userInterfaceStyle": "automatic",
     "platforms": ["ios", "android"],
     "ios": {
