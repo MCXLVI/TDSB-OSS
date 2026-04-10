@@ -5,10 +5,5 @@
     "source.sortMembers": "explicit"
   },
   "eslint.format.enable": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  }
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 }

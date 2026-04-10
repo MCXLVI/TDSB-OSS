@@ -1,5 +1,6 @@
-import { useTheme } from "@/hooks/use-theme";
 import { NativeTabs } from "expo-router/unstable-native-tabs";
+
+import { useTheme } from "@/hooks/use-theme";
 
 export default function TabLayout() {
   const { colors } = useTheme();
