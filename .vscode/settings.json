@@ -4,6 +4,41 @@
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
   },
+
   "eslint.format.enable": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+
+  "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "headerClassName",
+        "contentContainerClassName",
+        "columnWrapperClassName",
+        "endFillColorClassName",
+        "imageClassName",
+        "tintColorClassName",
+        "ios_backgroundColorClassName",
+        "thumbColorClassName",
+        "trackColorOnClassName",
+        "trackColorOffClassName",
+        "selectionColorClassName",
+        "cursorColorClassName",
+        "underlineColorAndroidClassName",
+        "placeholderTextColorClassName",
+        "selectionHandleColorClassName",
+        "colorsClassName",
+        "progressBackgroundColorClassName",
+        "titleColorClassName",
+        "underlayColorClassName",
+        "colorClassName",
+        "drawerBackgroundColorClassName",
+        "statusBarBackgroundColorClassName",
+        "backdropColorClassName",
+        "backgroundColorClassName",
+        "ListFooterComponentClassName",
+        "ListHeaderComponentClassName"
+    ],
+  "tailwindCSS.classFunctions": [
+      "useResolveClassNames"
+  ],
+  "css.lint.unknownAtRules": "ignore"
 }
