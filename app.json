@@ -7,7 +7,10 @@
     "icon": "./assets/images/icon.png",
     "scheme": "tdsb",
     "userInterfaceStyle": "automatic",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
       "icon": "./assets/TDSB.icon",
       "bundleIdentifier": "net.starveil.tdsb"
@@ -32,7 +35,10 @@
           },
           "imageWidth": 200
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
