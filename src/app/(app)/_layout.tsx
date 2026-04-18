@@ -3,10 +3,10 @@ import { NativeTabs } from "expo-router/unstable-native-tabs";
 import { useThemeColor } from "heroui-native/hooks";
 
 export default function TabLayout() {
-  const backgroundColor = useThemeColor("background");
+  const backgroundColour = useThemeColor("background");
 
   return (
-    <NativeTabs backgroundColor={backgroundColor}>
+    <NativeTabs backgroundColor={backgroundColour}>
       <NativeTabs.Trigger name="index">
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon sf="house.fill" md="home" />
